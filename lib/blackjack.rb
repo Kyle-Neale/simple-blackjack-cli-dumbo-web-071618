@@ -40,11 +40,13 @@ def hit?(card_total)
     elsif user == 'h'
       card_total += deal_card
     else
+      invalid_command
   end
 end
 
 def invalid_command
-  # code invalid_command here
+  puts "Command you entered is not valid...please try again!"
+  hit?
 end
 
 #####################################################
