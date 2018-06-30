@@ -46,7 +46,7 @@ end
 
 def invalid_command
   puts "Command you entered is not valid...please try again!"
-  hit?
+  get_user_input
 end
 
 #####################################################
